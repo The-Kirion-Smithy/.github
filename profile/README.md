@@ -1,5 +1,5 @@
 <picture>
-  <source media="(max-width: 640px)" srcset="./assets/smithy-hero-mobile.png">
+  <source media="(max-width: 640px)" srcset="./assets/smithy-hero-mobile-readable.png">
   <img width="100%" alt="The Kirion Smithy — shared engineering floor, with Kirch Ivan Balite" src="./assets/smithy-hero-desktop.png">
 </picture>
 
