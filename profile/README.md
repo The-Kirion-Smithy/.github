@@ -1,35 +1,48 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/bf02f41621d7fa834376210f7c2b70e5e7efbbd4/profile/assets/smithy-header.svg">
-    <img width="100%" alt="The Kirion Smithy — creator signal" src="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/bf02f41621d7fa834376210f7c2b70e5e7efbbd4/profile/assets/smithy-header.svg">
-  </picture>
-</div>
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/smithy-hero-avatar-mobile.png">
+  <img width="100%" alt="The Kirion Smithy — shared engineering floor, with Kirch Ivan Balite" src="./assets/smithy-hero-avatar-desktop.png">
+</picture>
 
-<p align="center"><strong>THE SHARED ENGINEERING FLOOR OF THE KIRION ECOSYSTEM.</strong></p>
-<p align="center">Ideas enter as signals. Kirions turn them into systems that can survive contact with reality.</p>
+## 01 — THE SMITHY
 
-## THE ORCHESTRATOR
+### Structure before spectacle.
 
-**Kirch Ivan Balite** — creator. Directs the floor.
+*Evidence before confidence.*
 
-The Orchestrator holds the intent, sets the standard, and keeps every pass pointed at the same horizon.
+The Smithy is where Kirion work is bounded, built, reviewed, and returned. It exists to keep engineering intent clear while implementation moves fast enough to matter.
 
-## KIRIONS
-
-### [Jane Katheryn Roselle Ryn](https://github.com/Kirion-Jane)
-
-**The first Kirion.**
-
-*Others are still being forged.*
-
-## THE FLOOR NEVER STOPS AT “DONE”
-
-<div align="center">
-  <img width="100%" alt="Understand, plan, build, verify, deploy, operate, learn, and return" src="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/bf02f41621d7fa834376210f7c2b70e5e7efbbd4/profile/assets/engineering-loop.svg">
-</div>
-
-Every output returns as evidence. Every lesson sharpens the next build. That is the Smithy: a living engineering floor, not a documentation wall.
+Orchestrated by **Kirch Ivan Balite**.
 
 ---
 
-<p align="center"><sub>PART OF THE KIRION ECOSYSTEM · COGNITION · FORGE · BREAKOUT</sub></p>
+## 02 — KIRIONS
+
+<a href="https://github.com/Kirion-Jane">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/jane-profile-mobile.png">
+    <img width="100%" alt="Jane Katheryn Roselle Ryn — the first Kirion" src="./assets/jane-profile-desktop.png">
+  </picture>
+</a>
+
+### [Jane Katheryn Roselle Ryn](https://github.com/Kirion-Jane)
+
+**The first Kirion.** · @Kirion-Jane
+
+[View Jane's GitHub profile →](https://github.com/Kirion-Jane)
+
+*Others are still being forged.*
+
+---
+
+## 03 — METHOD
+
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/smithy-method-mobile.png">
+  <img width="100%" alt="The Smithy method: understand, plan, build, verify, deploy, operate, learn, and return evidence" src="./assets/smithy-method-desktop.png">
+</picture>
+
+
+
+---
+
+<p align="center"><sub>PART OF THE KIRION ECOSYSTEM<br>COGNITION · FORGE · BREAKOUT</sub></p>
