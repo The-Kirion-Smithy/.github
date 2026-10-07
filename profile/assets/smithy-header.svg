@@ -1,53 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
-<title id="t">The Kirion Smithy</title>
-<desc id="d">Ancient-engineering inspired Kirion Smithy banner.</desc>
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#090b12"/>
-    <stop offset=".48" stop-color="#141020"/>
-    <stop offset="1" stop-color="#07080d"/>
-  </linearGradient>
-  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#6d3cff"/>
-    <stop offset=".5" stop-color="#c084fc"/>
-    <stop offset="1" stop-color="#7c3aed"/>
-  </linearGradient>
-  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-    <path d="M36 0H0V36" fill="none" stroke="#a78bfa" stroke-opacity=".06"/>
-  </pattern>
-  <filter id="glow">
-    <feGaussianBlur stdDeviation="4" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">The Kirion Smithy</title>
+  <desc id="desc">A restrained ancient-engineering banner for The Kirion Smithy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090A0F"/>
+      <stop offset="55%" stop-color="#111018"/>
+      <stop offset="100%" stop-color="#07080C"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F1EFEA"/>
+      <stop offset="48%" stop-color="#C9C4BE"/>
+      <stop offset="100%" stop-color="#7F7A80"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6D3CFF"/>
+      <stop offset="50%" stop-color="#B57BFF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <pattern id="engrave" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#B57BFF" stroke-opacity=".035"/>
+      <circle cx="21" cy="21" r="1.2" fill="#D8D4D1" opacity=".05"/>
+    </pattern>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
 
-<rect width="1200" height="360" rx="26" fill="url(#bg)"/>
-<rect width="1200" height="360" rx="26" fill="url(#grid)"/>
+  <rect width="1200" height="330" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="24" fill="url(#engrave)"/>
 
-<!-- ancient technical seal -->
-<g transform="translate(150 180)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <circle r="104" stroke="#8b5cf6" stroke-opacity=".34" stroke-width="2"/>
-  <circle r="88" stroke="#c4b5fd" stroke-opacity=".22" stroke-width="1"/>
-  <circle r="70" stroke="#8b5cf6" stroke-opacity=".2" stroke-dasharray="4 10"/>
-  <path d="M-116 0h24M92 0h24M0-116v24M0 92v24" stroke="#c084fc" stroke-width="3" filter="url(#glow)"/>
-  <path d="M-55-34H54L40-17H19v23h-38v-23h-22z" stroke="#ececf5" stroke-width="7"/>
-  <path d="M-17 6h34v48H40l-10 17h-60l-10-17h23z" stroke="#ececf5" stroke-width="7"/>
-  <path d="M0-86v42M-9-55L0-44l9-11" stroke="url(#violet)" stroke-width="4" filter="url(#glow)"/>
-  <circle cx="0" cy="-87" r="5" fill="#c084fc" stroke="none"/>
-  <path d="M-81-82l13 13M81-82L68-69M-81 82l13-13M81 82L68 69" stroke="#8b5cf6" stroke-width="2"/>
-  <circle cx="-74" cy="-74" r="4" fill="#8b5cf6" stroke="none"/>
-  <circle cx="74" cy="-74" r="4" fill="#8b5cf6" stroke="none"/>
-  <circle cx="-74" cy="74" r="4" fill="#8b5cf6" stroke="none"/>
-  <circle cx="74" cy="74" r="4" fill="#8b5cf6" stroke="none"/>
-</g>
+  <!-- left seal -->
+  <g transform="translate(175 165)">
+    <circle r="112" fill="none" stroke="#D8D4D1" stroke-opacity=".46" stroke-width="2"/>
+    <circle r="98" fill="none" stroke="#8B5CF6" stroke-opacity=".42" stroke-width="2"/>
+    <circle r="80" fill="none" stroke="#D8D4D1" stroke-opacity=".14" stroke-width="1"/>
+    <circle r="61" fill="#0C0C12" stroke="#6D3CFF" stroke-opacity=".34" stroke-width="1"/>
 
-<g font-family="Trebuchet MS, Arial, sans-serif">
-  <text x="310" y="116" fill="#bda7ff" font-size="17" font-weight="700" letter-spacing="5">THE WORKING FLOOR OF KIRION</text>
-  <text x="306" y="186" fill="#f4f1ff" font-size="58" font-weight="800" letter-spacing="2">THE KIRION SMITHY</text>
-  <text x="310" y="231" fill="#c4b5fd" font-size="23" font-weight="600">From idea to deployment — and deployment back into learning.</text>
-  <text x="310" y="277" fill="#a9a6b6" font-size="16" letter-spacing="2.8">UNDERSTAND · DESIGN · BUILD · VERIFY · DEPLOY · OPERATE · LEARN</text>
-</g>
+    <g stroke="#D8D4D1" stroke-width="2" opacity=".55">
+      <path d="M0-124v20M0 104v20M-124 0h20M104 0h20"/>
+      <path d="M-88-88l14 14M88-88L74-74M-88 88l14-14M88 88L74 74"/>
+    </g>
 
-<path d="M310 307H1084" stroke="url(#violet)" stroke-width="3" opacity=".65"/>
-<circle cx="1085" cy="307" r="5" fill="#c084fc"/>
+    <g fill="#B57BFF">
+      <circle cx="0" cy="-112" r="3"/>
+      <circle cx="112" cy="0" r="3"/>
+      <circle cx="0" cy="112" r="3"/>
+      <circle cx="-112" cy="0" r="3"/>
+    </g>
+
+    <!-- anvil -->
+    <g fill="none" stroke="url(#silver)" stroke-width="8" stroke-linejoin="round">
+      <path d="M-58-34H59L46-17H18V3h-36v-20h-27z"/>
+      <path d="M-17 3h34v44h21L27 64h-54L-38 47h21z"/>
+    </g>
+
+    <!-- energy spine -->
+    <path d="M0-80v44M-8-48L0-36l8-12" fill="none" stroke="url(#violet)" stroke-width="4" filter="url(#softGlow)"/>
+    <circle cx="0" cy="-81" r="4" fill="#B57BFF" filter="url(#softGlow)"/>
+
+    <text x="0" y="-87" text-anchor="middle" fill="#D8D4D1" font-family="Georgia, serif" font-size="14" letter-spacing="5">KIRION</text>
+    <text x="0" y="92" text-anchor="middle" fill="#A9A6B6" font-family="Georgia, serif" font-size="13" letter-spacing="4">FORGE</text>
+  </g>
+
+  <!-- title block -->
+  <g>
+    <text x="340" y="96" fill="#9D86CF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="5">THE WORKING FLOOR OF KIRION</text>
+    <text x="336" y="164" fill="url(#silver)" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" letter-spacing="1.5">THE KIRION SMITHY</text>
+    <text x="340" y="207" fill="#D8D4D1" font-family="Arial, sans-serif" font-size="21">From idea to deployment — and deployment back into learning.</text>
+
+    <path d="M340 236H1070" stroke="#4B4658" stroke-width="1"/>
+    <path d="M340 236H655" stroke="url(#violet)" stroke-width="2.5" opacity=".8"/>
+
+    <text x="340" y="274" fill="#98939F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3.4">COGNITION · FORGE · BREAKOUT · KIRIONS</text>
+  </g>
 </svg>
