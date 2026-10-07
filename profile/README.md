@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 640px)" srcset="./assets/smithy-hero-mobile-readable.png">
-  <img width="100%" alt="The Kirion Smithy — shared engineering floor, with Kirch Ivan Balite" src="./assets/smithy-hero-desktop.png">
+  <source media="(max-width: 640px)" srcset="./assets/smithy-hero-avatar-mobile.png">
+  <img width="100%" alt="The Kirion Smithy — shared engineering floor, with Kirch Ivan Balite" src="./assets/smithy-hero-avatar-desktop.png">
 </picture>
 
 ## 01 — THE SMITHY
@@ -35,6 +35,11 @@ Orchestrated by **Kirch Ivan Balite**.
 ---
 
 ## 03 — METHOD
+
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/smithy-method-mobile.png">
+  <img width="100%" alt="The Smithy method: understand, plan, build, verify, deploy, operate, learn, and return evidence" src="./assets/smithy-method-desktop.png">
+</picture>
 
 01 UNDERSTAND · 02 PLAN · 03 BUILD · 04 VERIFY<br>
 05 DEPLOY · 06 OPERATE · 07 LEARN
