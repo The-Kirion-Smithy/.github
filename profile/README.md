@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/main/profile/assets/smithy-header.svg">
-    <img width="100%" alt="The Kirion Smithy — creator signal" src="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/main/profile/assets/smithy-header.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/bf02f41621d7fa834376210f7c2b70e5e7efbbd4/profile/assets/smithy-header.svg">
+    <img width="100%" alt="The Kirion Smithy — creator signal" src="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/bf02f41621d7fa834376210f7c2b70e5e7efbbd4/profile/assets/smithy-header.svg">
   </picture>
 </div>
 
@@ -25,7 +25,7 @@ The Orchestrator holds the intent, sets the standard, and keeps every pass point
 ## THE FLOOR NEVER STOPS AT “DONE”
 
 <div align="center">
-  <img width="100%" alt="Understand, plan, build, verify, deploy, operate, learn, and return" src="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/main/profile/assets/engineering-loop.svg">
+  <img width="100%" alt="Understand, plan, build, verify, deploy, operate, learn, and return" src="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/bf02f41621d7fa834376210f7c2b70e5e7efbbd4/profile/assets/engineering-loop.svg">
 </div>
 
 Every output returns as evidence. Every lesson sharpens the next build. That is the Smithy: a living engineering floor, not a documentation wall.
