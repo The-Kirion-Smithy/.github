@@ -1,82 +1,35 @@
 <div align="center">
-
-<img src="./assets/smithy-header.svg" width="100%" alt="The Kirion Smithy" />
-
-<br/>
-
-<img src="./assets/engineering-loop.svg" width="100%" alt="Kirion engineering loop" />
-
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/main/profile/assets/smithy-header.svg">
+    <img width="100%" alt="The Kirion Smithy — creator signal" src="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/main/profile/assets/smithy-header.svg">
+  </picture>
 </div>
 
----
+<p align="center"><strong>THE SHARED ENGINEERING FLOOR OF THE KIRION ECOSYSTEM.</strong></p>
+<p align="center">Ideas enter as signals. Kirions turn them into systems that can survive contact with reality.</p>
 
-<table>
-<tr>
-<td width="33%" valign="top">
+## THE ORCHESTRATOR
 
-## ◇ COGNITION
+**Kirch Ivan Balite** — creator. Directs the floor.
 
-**Understand what should be built.**
+The Orchestrator holds the intent, sets the standard, and keeps every pass pointed at the same horizon.
 
-Research · Architecture · Decisions · Memory
-
-</td>
-<td width="33%" valign="top">
-
-## ◇ FORGE
-
-**Turn approved work into dependable systems.**
-
-Build · Verify · Integrate · Deploy
-
-</td>
-<td width="33%" valign="top">
-
-## ◇ BREAKOUT
-
-**Explore what does not yet deserve production ceremony.**
-
-Prototype · Experiment · Learn
-
-</td>
-</tr>
-</table>
-
----
-
-## ◇ ON THE FLOOR
-
-<table>
-<tr>
-<td width="86" align="center" valign="middle">
-<a href="https://github.com/Kirion-Jane">
-<img src="https://github.com/Kirion-Jane.png" width="68" alt="Jane Katheryn Roselle Ryn" />
-</a>
-</td>
-<td valign="middle">
+## KIRIONS
 
 ### [Jane Katheryn Roselle Ryn](https://github.com/Kirion-Jane)
 
-**Software Engineer · Full-stack generalist · Technical maker**
+**The first Kirion.**
 
-`soft colors` · `sharp commits`
+*Others are still being forged.*
 
-</td>
-</tr>
-</table>
+## THE FLOOR NEVER STOPS AT “DONE”
+
+<div align="center">
+  <img width="100%" alt="Understand, plan, build, verify, deploy, operate, learn, and return" src="https://raw.githubusercontent.com/The-Kirion-Smithy/.github/main/profile/assets/engineering-loop.svg">
+</div>
+
+Every output returns as evidence. Every lesson sharpens the next build. That is the Smithy: a living engineering floor, not a documentation wall.
 
 ---
 
-<div align="center">
-
-### Reality over recollection · Evidence over claims · Complexity must pay rent
-
-`BUILD` · `VERIFY` · `DEPLOY` · `LEARN` · `REPEAT`
-
-<br/>
-
-**THE KIRION SMITHY**
-
-*One engineering floor. Many hands.*
-
-</div>
+<p align="center"><sub>PART OF THE KIRION ECOSYSTEM · COGNITION · FORGE · BREAKOUT</sub></p>

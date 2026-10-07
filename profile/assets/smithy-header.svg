@@ -1,77 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
   <title id="title">The Kirion Smithy</title>
-  <desc id="desc">A restrained ancient-engineering banner for The Kirion Smithy.</desc>
+  <desc id="desc">A green, black, and white neo-nomad banner with an ASCII portrait of creator Kirch Ivan Balite.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#090A0F"/>
-      <stop offset="55%" stop-color="#111018"/>
-      <stop offset="100%" stop-color="#07080C"/>
-    </linearGradient>
-    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F1EFEA"/>
-      <stop offset="48%" stop-color="#C9C4BE"/>
-      <stop offset="100%" stop-color="#7F7A80"/>
-    </linearGradient>
-    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6D3CFF"/>
-      <stop offset="50%" stop-color="#B57BFF"/>
-      <stop offset="100%" stop-color="#7C3AED"/>
-    </linearGradient>
-    <pattern id="engrave" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#B57BFF" stroke-opacity=".035"/>
-      <circle cx="21" cy="21" r="1.2" fill="#D8D4D1" opacity=".05"/>
-    </pattern>
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="void" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030604"/><stop offset=".55" stop-color="#08100b"/><stop offset="1" stop-color="#020403"/></linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset=".62" stop-color="#050806" stop-opacity="0"/><stop offset=".94" stop-color="#050806" stop-opacity=".96"/><stop offset="1" stop-color="#050806"/></linearGradient>
+    <linearGradient id="acid" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eaffdf"/><stop offset=".45" stop-color="#a8ff60"/><stop offset="1" stop-color="#36df75"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#85ff99" stroke-opacity=".055"/></pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="portrait"><path d="M22 28H475V405H22z"/></clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,monospace}.display{font-family:Arial Black,Arial,sans-serif}
+      .portrait{animation:breath 8s ease-in-out infinite}.scan{animation:scan 9s ease-in-out infinite}.trace{stroke-dasharray:120 1000;animation:trace 10s linear infinite}.pulse{animation:pulse 5s ease-in-out infinite}
+      @keyframes breath{0%,100%{opacity:.52}50%{opacity:.72}}@keyframes scan{0%{transform:translateY(-18px)}50%,100%{transform:translateY(390px)}}@keyframes trace{to{stroke-dashoffset:-1120}}@keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.portrait,.scan,.trace,.pulse{animation:none}}
+    </style>
   </defs>
-
-  <rect width="1200" height="330" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="330" rx="24" fill="url(#engrave)"/>
-
-  <!-- left seal -->
-  <g transform="translate(175 165)">
-    <circle r="112" fill="none" stroke="#D8D4D1" stroke-opacity=".46" stroke-width="2"/>
-    <circle r="98" fill="none" stroke="#8B5CF6" stroke-opacity=".42" stroke-width="2"/>
-    <circle r="80" fill="none" stroke="#D8D4D1" stroke-opacity=".14" stroke-width="1"/>
-    <circle r="61" fill="#0C0C12" stroke="#6D3CFF" stroke-opacity=".34" stroke-width="1"/>
-
-    <g stroke="#D8D4D1" stroke-width="2" opacity=".55">
-      <path d="M0-124v20M0 104v20M-124 0h20M104 0h20"/>
-      <path d="M-88-88l14 14M88-88L74-74M-88 88l14-14M88 88L74 74"/>
+  <rect width="1200" height="430" rx="18" fill="url(#void)"/><rect x="1" y="1" width="1198" height="428" rx="17" fill="none" stroke="#78ff8f" stroke-opacity=".28"/><rect width="1200" height="430" rx="18" fill="url(#grid)"/>
+  <g clip-path="url(#portrait)">
+    <g class="portrait" transform="translate(14 42) scale(1.25 .96)" fill="#9cff69" opacity=".62">
+      <text class="mono" xml:space="preserve" font-size="4.2">
+        <tspan x="0" dy="0"> ``````````` `````````````````````` .&apos;``````````````````````````````````````````` ````&apos; `````````````````````````````````````.`````````&gt;- ````````````</tspan>
+        <tspan x="0" dy="4.45">````````   ```````` `````` ``   ````&apos;:-`    ````    ```````` ```````` ``` ```````````---``````````````````````````````````````````````^&lt;&gt;.````````````</tspan>
+        <tspan x="0" dy="4.45">`````````    ````    ```` `     ` ` -&apos;- `    ``    `````  ``` ```````` ```` `````````.-- ``````````      `````````````````````````````:=^-````````````</tspan>
+        <tspan x="0" dy="4.45">````   `  `         `         `  `  &apos;:&apos;``      `  ``` `  ```    ````` ``````  ```````...```  ``` ` ```````````````````````````````````_&lt;+:````````````</tspan>
+        <tspan x="0" dy="4.45">````     ``       ````  ``   ``     -:&apos;`    ` `    ```` ``` ```` ````` ```````  `````.-.`` ``` `  ``` ````````````````````.``````````.-&gt;&gt;_````````````</tspan>
+        <tspan x="0" dy="4.45">` `` `` ```` `` ``````` ``          -_:.`  `    ``` ``  ``    ```  ````` ``````````` `-.```````````````` `` ``````````````..````````...,=_````````````</tspan>
+        <tspan x="0" dy="4.45">`   `````` `` ```` ````   ```` `  ``-__- `  ` `  ` `` ``            `` `````````` ````-.. `` ``````````````````````````````.```````.-..^&gt;,````````````</tspan>
+        <tspan x="0" dy="4.45">`  `` `      ` `` ``  `  ``````    ``:_-`` ```    `                ````````` ````` ```.-.  ``` ```` `````````````````````````````..--&apos;&apos;=&lt;;.-----&apos;::&apos;:`</tspan>
+        <tspan x="0" dy="4.45"> `          ` `` `           `     ``::&apos; `` `    ```              `````` ```    ``` ``--.`````````````````````````````..----::_:_,^^,^;&lt;r&lt;&apos;_::::,__:_^</tspan>
+        <tspan x="0" dy="4.45">``          `   ``         `` `` ````&apos;:&apos;``     `          `     ```  `            ````-:- ```````````.`...-.....--.---&apos;&apos;&apos;:&apos;_,,,_^=====&gt;^+,:_::&apos;&apos;::::&apos;`</tspan>
+        <tspan x="0" dy="4.45">``` ``        ```         ` `  `  `` &apos;_:     ````        ```       ````   ````     ``.:=_.....-.......---.---...----.-&apos;--&apos;&apos;&apos;:::&apos;:___:::&apos;,_-.-`````.``.</tspan>
+        <tspan x="0" dy="4.45">``     ` ` `` ``        ```` ``  ``  .:-`     ```   `...`````    ````    `````     `-&apos;_;,-...-.....`.........``.`.```````````.```.``...._,&apos;``...`.....</tspan>
+        <tspan x="0" dy="4.45">````  ` ` ` ```````````````.``````.``..-`     ``  `-:___&apos;```  ``  `````  ````       `.-:.`````````````````````````````````````.``..`.`.`,^_`..```..``.</tspan>
+        <tspan x="0" dy="4.45"> `````````````````````.``....````.`.`.&apos;:.  ```   .:,^^===&apos;   ````````` ```            .-&apos;``  ````````````````````````````````..``.--...`_,_`..`.....`.</tspan>
+        <tspan x="0" dy="4.45">``````.`````.`.````````````.``````````-.`       `_=,,^=;;^,_:&apos;-.```` `````````        `-&apos;`` `  ``` ````````` ``````````````..--...-.---.:,,`..`.---...</tspan>
+        <tspan x="0" dy="4.45">``````````````````````````   `      ` .-.      `:=^^,:___,&lt;+&lt;+r!&gt;=,&apos;` ``  .:,,&apos;      ``&apos;:.``` ```  ` `````````` `````````.`...-.--...---:^^......-.--.</tspan>
+        <tspan x="0" dy="4.45">               `               `      -:&apos;      `.&apos;^=,&gt;,&apos;,,&lt;&lt;&gt;rc?/c+&gt;:```-_;/*c&lt;&apos;      `:_&apos;  ````````` ```````````````````.`..-.-&apos;-&apos;:__-&apos;-^,----....---</tspan>
+        <tspan x="0" dy="4.45">          ``  ``                      &apos;_:``` ` .---,**r:&apos;:-&apos;_=+&lt;&gt;&gt;;+=.`_!r!*++!_     ``:,:`  ``````` ``` ````````````````.`.---.-&apos;:^=&gt;;,&apos;_,.:-&apos;-&apos;-.--&apos;</tspan>
+        <tspan x="0" dy="4.45"> ``     `  `                         `&apos;,=.````` ---&gt;z+*!==+czTTzc!;;&lt;:&apos;r/!;!&gt;*&gt;.``    `_,,` `````` ``````````````````````.`.-..&apos;::_,=+//&gt;:=:&apos;:::&apos;&apos;&apos;--&apos;</tspan>
+        <tspan x="0" dy="4.45">```     ``                           `&apos;=r:``````.:+?!&lt;&lt;!r!r/7{7v?r^=+=,!c&lt;r*zc&apos; ```   `,^^``````` ````` `````````````.``....-&apos;&apos;:,,;&gt;!*s7),+:^&gt;_:__&apos;&apos;&apos;-</tspan>
+        <tspan x="0" dy="4.45">```     ``        ``                 `&apos;cT;``````:+/c!r+=+c?7|)(L*r&lt;&gt;&gt;&gt;=,++!+;&apos;` ```   `:=&gt;-``` ``````  `````````````.`.`..--::,^;&gt;+*TJ(7I*r_&lt;r;_,^_&apos;:&apos;</tspan>
+        <tspan x="0" dy="4.45">``        ``   `                  `  `-z7c `````&apos;^+&lt;=&gt;;!r/T7)Js+cc!&lt;&lt;;^;,&apos;=,=_-  `   ``:+r, `````````````````````````...`.-&apos;&apos;_^+c*s7FftuY()+&lt;Lc&lt;;^^_:_</tspan>
+        <tspan x="0" dy="4.45">            ``     `             ``   `?7s. ````._,=&gt;&lt;rc/Lvvvscc**!+&lt;;=,:;;&lt;^:-.    ```&apos;+/^ ` ` `` ``` ``````````````..-.-&apos;::^+c*T}t[ooaqnIsc1izr&lt;;=^^</tspan>
+        <tspan x="0" dy="4.45">              ``` `          `        `s7)&apos; ```` .&apos;:__,^+v)v?/c/?/*r&gt;^_:,=^_-.`````````-*)+``` `````````````````.```..---&apos;:__&lt;cL({t5xj]awyu|TyoFszr&lt;+&gt;</tspan>
+        <tspan x="0" dy="4.45">              `` `         `` `     `` z():```````-::,;!c+cc**cc*r+^_&apos;&apos;:&apos;-````` ````` `-?vz`````````````````````.`.`.`.&apos;&apos;::^+!vfuIeayayx2Eo1/EZlFvz+cz</tspan>
+        <tspan x="0" dy="4.45">`     `   `      ``         `  `   `  `r|F;``   ```&apos;_,&lt;crcz?/r+=,:--...`````   ` ``    `cf*.``   ````````````````.``...-:&apos;,+*z|[enj]jjYYjwEy&lt;hy5IFv?/z</tspan>
+        <tspan x="0" dy="4.45">`    ``                `           `  `&lt;iCr   `  ```:,+z?sz!^_&apos;...-``  ````   ```       `r- ```````````````````````....-&apos;_=&lt;c)I[n5ajYYYYYaE4&gt;p]aetC(Js</tspan>
+        <tspan x="0" dy="4.45">           `   `         `  `         `^FF/ ` `   ```-_^=^_-``....` `````````  `  `  `  ``` ``````````````````````.....-&apos;,^!L7{nYjyYY5YYY2Y9/6wjYn1CCJ</tspan>
+        <tspan x="0" dy="4.45">          ` `    ````  `   `````    ```&apos;){?`````  ``` ```` ``````` ```  ``````    `    ``-``   ```````````````````.`.`.&apos;&apos;_=!TifoaaYY555YY]ZO|]4jonIiII</tspan>
+        <tspan x="0" dy="4.45">           `      ``` ```  `````      `.73J.  `  `````````````` `  ```````````  ```` ` _sv;`       ```````````````..`..--:=cTCuZYjx55YY5Y]jhFjOjnn3{3l</tspan>
+        <tspan x="0" dy="4.45">                            ```        `|f{-`  ```  ` ```````````````````````` ```````,C5lF^` ` ``.-``````.````````..`.-:_;rT}uYxjYYxxxxxy2k1lbYu[l{CZ</tspan>
+        <tspan x="0" dy="4.45">                                     ` `v3C_` ``     ````````````&apos;,&lt;cz?crcr&lt;^- ```` `.sZF[/`  ``-+&lt;!+`` ` ```.``````...-:,+/s|eya22Ewqkk69dbji@pdP]xyn</tspan>
+        <tspan x="0" dy="4.45">`  `                           ``  `    s1f&gt;`````     ````````,/T)))7JJJv?ssTv+``````&apos;)[l{_` ``^)T!T(+`` `  ```.``.....-:^+?JF1w4pV4hkw2aj2xL=I3Js/ccc</tspan>
+        <tspan x="0" dy="4.45"> ```            ``   ````      ````    `c3f+` ``    ``  `````,Jt|C|vLLc/z/c/F{er``` `&apos;JlnL.`` &lt;fvJ;T(^`   ``   `:,....-.--_,^,&gt;&lt;+/v7i}ftueeC[r3C1u33[u</tspan>
+        <tspan x="0" dy="4.45">``` ` `          ` ```````````````````.`;f}?``  `` ````  ````.&lt;((s+^:,IYoT.-+3lC_````-vI1*```&lt;l{(&lt;L(&lt;  ` ```   &apos;&lt;L^..--&apos;&apos;,=+s{[]9GKHAbbOVVUXm+]S}iiJio</tspan>
+        <tspan x="0" dy="4.45"> ```````````````.``.....```........`...._sJ+.-` ``````` `     .,&apos;```.TjZI:`.)nIfr!&lt;&apos; .Lff*^-,fFF&gt;**:!&gt;&lt;:````` `.*s),..-&apos;:,=!L7CnYjyjxxxxxjxaHLE]ni(J|3</tspan>
+        <tspan x="0" dy="4.45">`.`.`..````.`.`.......-...`.`.....`.`..`:faF.`  `````````````` `  ``:7f[c`_(Y((fC?7i_.?{LzsTsC)^+=v(?c|7!z/&apos;-^: ,(T/--.-&apos;:,&gt;rL{eY5jyYYYYY5x5KIYSj{JC{l</tspan>
+        <tspan x="0" dy="4.45">.``.`.``````````.``.`.``````````````````&apos;fu}.`   ````` `` `````     ^C7}^?lZtF((nL{}|&lt;}J{c)13)izc[F{/r}T/Ce(L?T_ &gt;sc_-.--&apos;:,&gt;z7l5ZYjxYxYYYYYAZ14xI|vCt</tspan>
+        <tspan x="0" dy="4.45"> ``````````     ```    ````````` `  ` ``.}n1_      `````` ```   ````!I{)7Y}Yvi|oJ&apos;&lt;f*+(C7:/1JC7;[tC=;fFi*llJi?Js_&lt;r&lt;_.--&apos;:_,&gt;c)foxjYYYYYYYjahjLhn}|sT{</tspan>
+        <tspan x="0" dy="4.45"> `      ` ``  ` ```    ```     ``   `````|Z1^`  ``   ```       `````+IFTJuI+Cnx).``^&gt;+{iv_f}3C|,f}^_7fF=.+vJL^z&gt;z/==_..--&apos;:,;cs{[YyjYYYYYYYE22!knCTvv7</tspan>
+        <tspan x="0" dy="4.45">``       ``````  `` `` ```     `` `` ``` LuI&gt;`  ````  `````` ` ```  &apos;TfFLc:FjYF-` ```rf}?C}n*{i?r^`:7[(=__&apos;`_&lt;&gt;zs/?r&apos;...-&apos;&apos;_=rL{teYjxxYYYYY22k^w[3|vJv</tspan>
+        <tspan x="0" dy="4.45">`` ``     ``    `` ```  ```` ` ``  ``    *lIr``` ````  ```` ```      :r,. c[jt,`   `.?tJF(l*`s1i;   _vr;^&gt;&lt;&gt;++r?T*&gt;&apos;.....&apos;&apos;_,+/7IueYjxYYY5YESq=]oli)TL</tspan>
+        <tspan x="0" dy="4.45">`  `  `` `        ` ` ``        ` ```  ``;}fz```` `````  `````````` ` `  `.*J, ``````,i1lF;``-L?=`  `.^=&apos;^;&gt;&gt;;r/*_``.....-&apos;_,^+z(3eYyjYY555qxyLnj[(Lss</tspan>
+        <tspan x="0" dy="4.45">`   ` ``         ``   ```     ` ` ``   ``:|{T` `  ` `````  ````` ``      ```. ``.&apos;--,+/(/-   `-,.    ``:^_:..`&gt;T?;-__-`.`-&apos;:_,&lt;cT}[5xyjY555kZZFJ57|JLz</tspan>
+        <tspan x="0" dy="4.45">``               ``      ``  `` ``  ``` `-v3s``    ```` ``` ``````       ````` ._^:,,=;: ````.````````._=_.-. .*?r,_^&apos;`.`..&apos;:,&gt;r*T1YxYjyxxYwyoicYi|TL/</tspan>
+        <tspan x="0" dy="4.45"> - `           ``   ``   `` `     `   ````&gt;L&lt;`     ````  ```  ``` ```    ``    `&apos;,:&apos;:-..``...--....-....:..-`  .&gt;;::-...`.`--&apos;,&lt;c?|tZZYjxYY2S37,uJ(T?!</tspan>
+        <tspan x="0" dy="4.45">_,-  ` `      ```` ```      ``  ````  ``` &lt;cr.    ````  `` ```   ` `           ``.````..`.&apos;....--.--.```` ``    `.`  `..`....-:=!*s7Iu[5xZZjS|F:IC|L/;</tspan>
+        <tspan x="0" dy="4.45">:&lt;*&gt;`     `   ``` `  ``  ``` ``` ``    ```&lt;z/&apos;   ` ```   ` ` ` ````             ```   `.--&apos;-.--.-.-&apos;---.`             `......-:_^&gt;r?JC3loZZZjJi!?FT*+=</tspan>
+        <tspan x="0" dy="4.45">|L1{&gt;   ``       `  `  ```` ` ``    `   ``=?z,`      ```    ` `````                   ``.--.-&apos;&apos;---&apos;:&apos;..               `.``....-:,,=!?vF}1u1lY|J+^?!&gt;=,</tspan>
+        <tspan x="0" dy="4.45">+(tI&lt;`    ```      `        ````  ```    `,/c,` ```   `  `  `` ```  `                  `````.......-``                `.```....-&apos;_^&gt;r?v(}}}IoJr;:!;^^&apos;</tspan>
+        <tspan x="0" dy="4.45"> =?&lt;`       `   `        `   `  ``` `` ```-+!,` ``` `  ``    ` ```                      `   `   ```             ``    `..``````.-&apos;:^&gt;r/L({CCIT=c:^,_&apos;&apos;</tspan>
+        <tspan x="0" dy="4.45">` ``   ````            ``          ``  ```-r*&lt;  ```````  `` ``             ``           `                        `     `.`````...--:,;+czL))(/=r,:_&apos;&apos;-</tspan>
+        <tspan x="0" dy="4.45">```    ```         `  `            ````  `.&gt;c;`` ```````` ````            ````     `                                   `.``````....-:_,=+cccz&lt;:&lt;_-&apos;&apos;-.</tspan>
+        <tspan x="0" dy="4.45">`       `   ` `   `             ` `    ` ``=&lt;=``` ``` ````  ``` ``  ``    ```     `                                    ``.``````....-&apos;::,;&gt;&lt;+;&apos;,-.--.-</tspan>
+        <tspan x="0" dy="4.45">``                    `        ````` ``  ``,&gt;=````  ``   ```  ````` ``        `` ```           ``         `             `.```````....--::,,==^&apos;-..:-&apos;.</tspan>
+        <tspan x="0" dy="4.45">                    ``          ``    ` `  ,&gt;=.`  `  ```  ``` ` ````          ``  `           `    `                    `.``````.`..--.-:&apos;&apos;&apos;::-:&apos;.-&apos;:.</tspan>
+        <tspan x="0" dy="4.45"> ` `                ```               `  ``&apos;=,.`  `   ````` ```` ``                 ``      ``     ``                   `-&apos;&apos;-&apos;-&apos;&apos;:&apos;::__,,,,^=;=^,&apos;^,,,</tspan>
+        <tspan x="0" dy="4.45"> ``   ``    ``` ``   ``  ````````````.`````-:,.``       ```````                  `` `     ````   `       `             `:,::&apos;&apos;:::::_,_,^^^=;&gt;&gt;=^_-,,,-</tspan>
+        <tspan x="0" dy="4.45">  ```````````````````````````.`.`.`..--`.`.-^=:````        ```` `              `` ``    ``````` `       ``             `.&apos;&apos;&apos;&apos;--&apos;&apos;--&apos;---&apos;&apos;_:&apos;&apos;:-&apos;&apos;-&apos;.-`</tspan>
+        <tspan x="0" dy="4.45">```.```````.`.`.`.````.`.```...`..`..--```.`:&apos;..` `````      ````           `   ``     ``````` `        ```           `.``````......&apos;&apos;------&apos;&apos;:.--`--.</tspan>
+        <tspan x="0" dy="4.45">````````````.````````````````````````.``````_,:`  ``````` `                 `            `                       `    `.``````.`....-----&apos;&apos;&apos;.&apos;:`-&apos;`-.-</tspan>
+        <tspan x="0" dy="4.45">-. ``````````     `     ` ```````    ```````_,_    ``````                    `        `     ``          `        `   `.```.```.`.``....-&apos;::----.&apos;&apos;.---</tspan>
+        <tspan x="0" dy="4.45">+,    `   `    ```           ``` `   `     `&apos;,&apos;                                     `      `        `   ` `         `````````````````.`.----....&apos;&apos;-:::</tspan>
+        <tspan x="0" dy="4.45">s&lt;.       `               ````     `        .:.                                  ```    ```                         `.````````````````````...`.`-:&apos;_&apos;,</tspan>
+        <tspan x="0" dy="4.45">|z-                        `    `  ``    `` `.`                                `      `              ``             `.``````````````````````.`..--;+^&apos;</tspan>
+        <tspan x="0" dy="4.45">vs=`       ```` `   ` `         ```  ````````.`  `                                 ```              `                `:===;;&gt;&lt;+&lt;&lt;&lt;rr/c/TJ|Fi{F}i^&gt;?*c&gt;</tspan>
+        <tspan x="0" dy="4.45">&gt;c,` `````````````````````.```.```.`.`.`..---_&apos;`                                 ``             `                    :s]a]]aEE2]a]S2SwPpG4bGpOH8C_!!^-</tspan>
+        <tspan x="0" dy="4.45">`,````````...`.```..`.`.`....`.....`.`..`--.&apos;_&apos;`                             `                  `              ``   `&lt;w@&amp;#DDDmKKKAOpdbU4keqyeYa#Y^&apos;.?&apos;</tspan>
+        <tspan x="0" dy="4.45">...````````.``````_:``````.````.```````````--:`                               ` ``  ``                               .3@SjjxjYY5Y5oY5jyk5Y]Snlx9Z;-7d(</tspan>
+        <tspan x="0" dy="4.45">.````````````````_+!_``````````````````````.-`                                 ```                  `                `;4@yYYYYY55YYYYY2Z5qyEoI1k[^+q%G</tspan>
+        <tspan x="0" dy="4.45">&apos;:```````````````,!+^.```````````````````````                                   `           `       `                 `F@hjY55Y55Y55YjYo2yay5[3]u;&lt;Sb4</tspan>
+        <tspan x="0" dy="4.45">:^&apos;``````````````.=&gt;_.```..``````````````.``                               `    `   ``                                `:E@yYYYYY55Z5YxYjyYyY5oekx!^ymO</tspan>
+        <tspan x="0" dy="4.45">,;_```````````````.:.`.--..`````````````.-``                              ``    `   ` ``     ```                       `/8myxxYxjjxYYYjyxxxxYjYhkz_Ymp</tspan>
+        <tspan x="0" dy="4.45">,&gt;,.`.``````````````--&apos;-&apos;-`````````````..-.`                            ` ``    `````````   `````                      ``}@4qwwSSE22]22EEE2ayjxhpJ-5%G</tspan>
+        <tspan x="0" dy="4.45">_s_`...````````````.&apos;_--..`..`.`.`````.`.:.                 `   ` `` `````    `  ````````````  `   ``         `           ^hh994VpppOp4pppVV4d9Vn- :6w</tspan>
+      </text>
     </g>
-
-    <g fill="#B57BFF">
-      <circle cx="0" cy="-112" r="3"/>
-      <circle cx="112" cy="0" r="3"/>
-      <circle cx="0" cy="112" r="3"/>
-      <circle cx="-112" cy="0" r="3"/>
-    </g>
-
-    <!-- anvil -->
-    <g fill="none" stroke="url(#silver)" stroke-width="8" stroke-linejoin="round">
-      <path d="M-58-34H59L46-17H18V3h-36v-20h-27z"/>
-      <path d="M-17 3h34v44h21L27 64h-54L-38 47h21z"/>
-    </g>
-
-    <!-- energy spine -->
-    <path d="M0-80v44M-8-48L0-36l8-12" fill="none" stroke="url(#violet)" stroke-width="4" filter="url(#softGlow)"/>
-    <circle cx="0" cy="-81" r="4" fill="#B57BFF" filter="url(#softGlow)"/>
-
-    <text x="0" y="-87" text-anchor="middle" fill="#D8D4D1" font-family="Georgia, serif" font-size="14" letter-spacing="5">KIRION</text>
-    <text x="0" y="92" text-anchor="middle" fill="#A9A6B6" font-family="Georgia, serif" font-size="13" letter-spacing="4">FORGE</text>
+    <rect x="20" y="28" width="455" height="377" fill="url(#fade)"/>
+    <rect class="scan" x="22" y="30" width="450" height="26" fill="#caff9b" opacity=".06"/>
   </g>
-
-  <!-- title block -->
-  <g>
-    <text x="340" y="96" fill="#9D86CF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="5">THE WORKING FLOOR OF KIRION</text>
-    <text x="336" y="164" fill="url(#silver)" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" letter-spacing="1.5">THE KIRION SMITHY</text>
-    <text x="340" y="207" fill="#D8D4D1" font-family="Arial, sans-serif" font-size="21">From idea to deployment — and deployment back into learning.</text>
-
-    <path d="M340 236H1070" stroke="#4B4658" stroke-width="1"/>
-    <path d="M340 236H655" stroke="url(#violet)" stroke-width="2.5" opacity=".8"/>
-
-    <text x="340" y="274" fill="#98939F" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3.4">COGNITION · FORGE · BREAKOUT · KIRIONS</text>
+  <g transform="translate(500 54)">
+    <g transform="translate(0 0)" filter="url(#glow)">
+      <path d="M18 40A40 40 0 0 1 58 0M70 2A40 40 0 0 1 96 32M98 48A40 40 0 0 1 72 78M57 80A40 40 0 0 1 18 40" fill="none" stroke="#89ff72" stroke-width="2"/>
+      <path d="M35 18V63M35 41L64 14M44 34L70 63" fill="none" stroke="#f5fff2" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+      <path d="M8 40h12M96 40h16M58-10V1M58 79v11" stroke="#89ff72" stroke-width="2"/>
+      <circle class="pulse" cx="86" cy="12" r="4" fill="#b8ff59"/>
+    </g>
+    <text x="125" y="31" class="mono" fill="#8cff76" font-size="12" letter-spacing="4">THE SHARED ENGINEERING FLOOR</text>
+    <text x="122" y="108" class="display" fill="#f6fff3" font-size="84" letter-spacing="-3">KIRION</text>
+    <text x="128" y="153" class="display" fill="url(#acid)" font-size="36" letter-spacing="13">SMITHY</text>
+    <path d="M126 178H645" stroke="#7dff85" stroke-opacity=".32"/>
+    <text x="128" y="213" class="mono" fill="#ecffe8" font-size="17" letter-spacing="2">UNDERSTAND  /  BUILD  /  VERIFY  /  RETURN</text>
+    <text x="128" y="250" class="mono" fill="#8fa895" font-size="12" letter-spacing="1.6">COGNITION · FORGE · BREAKOUT</text>
+    <g transform="translate(128 286)"><path d="M0 0H510" stroke="#29452e"/><path class="trace" d="M0 0H510" stroke="#a7ff62" stroke-width="2"/><circle cx="0" cy="0" r="4" fill="#f7fff5"/></g>
+    <text x="128" y="329" class="mono" fill="#a8ff67" font-size="12" letter-spacing="2">CREATOR SIGNAL // KIRCH IVAN BALITE</text>
   </g>
+  <path d="M28 28h48M28 28v48M1172 28h-48M1172 28v48M28 402h48M28 402v-48M1172 402h-48M1172 402v-48" fill="none" stroke="#a7ff68" stroke-width="2" opacity=".7"/>
 </svg>

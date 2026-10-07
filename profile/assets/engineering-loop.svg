@@ -1,58 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
-  <title id="title">Kirion engineering loop</title>
-  <desc id="desc">Understand, plan, build, verify, deploy, operate, learn, repeat.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Kirion engineering loop</title><desc id="desc">Seven engineering stages connected in a continuous animated return loop.</desc>
   <defs>
-    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6D3CFF"/>
-      <stop offset="50%" stop-color="#B57BFF"/>
-      <stop offset="100%" stop-color="#7C3AED"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" x2="1" y2="1"><stop stop-color="#020403"/><stop offset=".5" stop-color="#09110b"/><stop offset="1" stop-color="#020403"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#35dc75"/><stop offset=".5" stop-color="#c1ff66"/><stop offset="1" stop-color="#35dc75"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.dash{stroke-dasharray:140 940;animation:flow 10s linear infinite}.pulse{animation:pulse 4s ease-in-out infinite}@keyframes flow{to{stroke-dashoffset:-1080}}@keyframes pulse{50%{opacity:1;transform:scale(1.35)}}@media(prefers-reduced-motion:reduce){.dash,.pulse{animation:none}}</style>
+    <path id="route" d="M86 108H1114Q1150 108 1150 144T1114 180H86Q50 180 50 144T86 108"/>
   </defs>
-
-  <rect width="1200" height="150" rx="22" fill="#0B0C12"/>
-  <path d="M90 74H1110" stroke="#34303E" stroke-width="2"/>
-  <path d="M90 74H1110" stroke="url(#violet)" stroke-width="2" opacity=".45"/>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
-    <g transform="translate(95 74)">
-      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
-      <text y="5" fill="#EEEAF5" font-size="12">01</text>
-      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">UNDERSTAND</text>
-    </g>
-    <g transform="translate(235 74)">
-      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
-      <text y="5" fill="#EEEAF5" font-size="12">02</text>
-      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">PLAN</text>
-    </g>
-    <g transform="translate(375 74)">
-      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
-      <text y="5" fill="#EEEAF5" font-size="12">03</text>
-      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">BUILD</text>
-    </g>
-    <g transform="translate(515 74)">
-      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
-      <text y="5" fill="#EEEAF5" font-size="12">04</text>
-      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">VERIFY</text>
-    </g>
-    <g transform="translate(655 74)">
-      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
-      <text y="5" fill="#EEEAF5" font-size="12">05</text>
-      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">DEPLOY</text>
-    </g>
-    <g transform="translate(795 74)">
-      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
-      <text y="5" fill="#EEEAF5" font-size="12">06</text>
-      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">OPERATE</text>
-    </g>
-    <g transform="translate(935 74)">
-      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
-      <text y="5" fill="#EEEAF5" font-size="12">07</text>
-      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">LEARN</text>
-    </g>
-    <g transform="translate(1075 74)">
-      <circle r="18" fill="#171223" stroke="#B57BFF" stroke-width="2"/>
-      <text y="5" fill="#EEEAF5" font-size="15">↺</text>
-      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">REPEAT</text>
-    </g>
+  <rect width="1200" height="250" rx="16" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="248" rx="15" fill="none" stroke="#75ff85" stroke-opacity=".24"/>
+  <text x="50" y="48" class="mono" fill="#8cff76" font-size="12" letter-spacing="4">THE ENGINEERING LOOP // NOTHING LEAVES WITHOUT RETURNING SMARTER</text>
+  <use href="#route" fill="none" stroke="#263d2b" stroke-width="2"/><use href="#route" class="dash" fill="none" stroke="url(#line)" stroke-width="3" filter="url(#glow)"/>
+  <g class="mono" text-anchor="middle" font-size="12" letter-spacing="1.5">
+    <g transform="translate(92 108)"><circle r="19" fill="#07100a" stroke="#8cff76"/><text y="5" fill="#f4fff1">01</text><text y="-31" fill="#dfffd8">UNDERSTAND</text></g>
+    <g transform="translate(260 108)"><circle r="19" fill="#07100a" stroke="#8cff76"/><text y="5" fill="#f4fff1">02</text><text y="-31" fill="#dfffd8">PLAN</text></g>
+    <g transform="translate(428 108)"><circle r="19" fill="#07100a" stroke="#8cff76"/><text y="5" fill="#f4fff1">03</text><text y="-31" fill="#dfffd8">BUILD</text></g>
+    <g transform="translate(596 108)"><circle r="19" fill="#07100a" stroke="#c1ff66"/><text y="5" fill="#f4fff1">04</text><text y="-31" fill="#dfffd8">VERIFY</text></g>
+    <g transform="translate(764 108)"><circle r="19" fill="#07100a" stroke="#8cff76"/><text y="5" fill="#f4fff1">05</text><text y="-31" fill="#dfffd8">DEPLOY</text></g>
+    <g transform="translate(932 108)"><circle r="19" fill="#07100a" stroke="#8cff76"/><text y="5" fill="#f4fff1">06</text><text y="-31" fill="#dfffd8">OPERATE</text></g>
+    <g transform="translate(1100 108)"><circle class="pulse" r="19" fill="#07100a" stroke="#c1ff66"/><text y="5" fill="#f4fff1">07</text><text y="-31" fill="#dfffd8">LEARN</text></g>
   </g>
+  <text x="600" y="186" text-anchor="middle" class="mono" fill="#90a496" font-size="11" letter-spacing="3">RETURN SIGNAL // FEED THE NEXT PASS</text>
+  <path d="M28 28h34M28 28v34M1172 28h-34M1172 28v34M28 222h34M28 222v-34M1172 222h-34M1172 222v-34" fill="none" stroke="#a7ff68" opacity=".6"/>
 </svg>
