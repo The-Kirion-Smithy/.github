@@ -41,11 +41,7 @@ Orchestrated by **Kirch Ivan Balite**.
   <img width="100%" alt="The Smithy method: understand, plan, build, verify, deploy, operate, learn, and return evidence" src="./assets/smithy-method-desktop.png">
 </picture>
 
-01 UNDERSTAND · 02 PLAN · 03 BUILD · 04 VERIFY<br>
-05 DEPLOY · 06 OPERATE · 07 LEARN
 
-**RETURN**<br>
-Every output comes back as evidence for the next pass.
 
 ---
 
