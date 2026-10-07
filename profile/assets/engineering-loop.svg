@@ -1,24 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="t d">
-<title id="t">Kirion Engineering Loop</title>
-<desc id="d">Understand, plan, build, verify, deploy, operate, learn, repeat.</desc>
-<defs>
-  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#6d3cff"/>
-    <stop offset=".5" stop-color="#c084fc"/>
-    <stop offset="1" stop-color="#7c3aed"/>
-  </linearGradient>
-</defs>
-<rect width="1200" height="190" rx="24" fill="#0d0f16"/>
-<text x="600" y="42" text-anchor="middle" fill="#d8ccff" font-family="Trebuchet MS, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">THE ENGINEERING LOOP</text>
-<path d="M92 102H1108" stroke="url(#line)" stroke-width="4" opacity=".72"/>
-<g font-family="Trebuchet MS, Arial, sans-serif" font-weight="700" text-anchor="middle">
-  <g transform="translate(100 102)"><circle r="23" fill="#171524" stroke="#8b5cf6" stroke-width="3"/><text y="5" fill="#f5f3ff" font-size="13">01</text><text y="48" fill="#c4b5fd" font-size="14">UNDERSTAND</text></g>
-  <g transform="translate(245 102)"><circle r="23" fill="#171524" stroke="#8b5cf6" stroke-width="3"/><text y="5" fill="#f5f3ff" font-size="13">02</text><text y="48" fill="#c4b5fd" font-size="14">PLAN</text></g>
-  <g transform="translate(390 102)"><circle r="23" fill="#171524" stroke="#8b5cf6" stroke-width="3"/><text y="5" fill="#f5f3ff" font-size="13">03</text><text y="48" fill="#c4b5fd" font-size="14">BUILD</text></g>
-  <g transform="translate(535 102)"><circle r="23" fill="#171524" stroke="#8b5cf6" stroke-width="3"/><text y="5" fill="#f5f3ff" font-size="13">04</text><text y="48" fill="#c4b5fd" font-size="14">VERIFY</text></g>
-  <g transform="translate(680 102)"><circle r="23" fill="#171524" stroke="#8b5cf6" stroke-width="3"/><text y="5" fill="#f5f3ff" font-size="13">05</text><text y="48" fill="#c4b5fd" font-size="14">DEPLOY</text></g>
-  <g transform="translate(825 102)"><circle r="23" fill="#171524" stroke="#8b5cf6" stroke-width="3"/><text y="5" fill="#f5f3ff" font-size="13">06</text><text y="48" fill="#c4b5fd" font-size="14">OPERATE</text></g>
-  <g transform="translate(970 102)"><circle r="23" fill="#171524" stroke="#8b5cf6" stroke-width="3"/><text y="5" fill="#f5f3ff" font-size="13">07</text><text y="48" fill="#c4b5fd" font-size="14">LEARN</text></g>
-  <g transform="translate(1105 102)"><circle r="23" fill="#241731" stroke="#c084fc" stroke-width="3"/><text y="5" fill="#f5f3ff" font-size="18">↺</text><text y="48" fill="#c4b5fd" font-size="14">REPEAT</text></g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+  <title id="title">Kirion engineering loop</title>
+  <desc id="desc">Understand, plan, build, verify, deploy, operate, learn, repeat.</desc>
+  <defs>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6D3CFF"/>
+      <stop offset="50%" stop-color="#B57BFF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="150" rx="22" fill="#0B0C12"/>
+  <path d="M90 74H1110" stroke="#34303E" stroke-width="2"/>
+  <path d="M90 74H1110" stroke="url(#violet)" stroke-width="2" opacity=".45"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
+    <g transform="translate(95 74)">
+      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
+      <text y="5" fill="#EEEAF5" font-size="12">01</text>
+      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">UNDERSTAND</text>
+    </g>
+    <g transform="translate(235 74)">
+      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
+      <text y="5" fill="#EEEAF5" font-size="12">02</text>
+      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">PLAN</text>
+    </g>
+    <g transform="translate(375 74)">
+      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
+      <text y="5" fill="#EEEAF5" font-size="12">03</text>
+      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">BUILD</text>
+    </g>
+    <g transform="translate(515 74)">
+      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
+      <text y="5" fill="#EEEAF5" font-size="12">04</text>
+      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">VERIFY</text>
+    </g>
+    <g transform="translate(655 74)">
+      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
+      <text y="5" fill="#EEEAF5" font-size="12">05</text>
+      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">DEPLOY</text>
+    </g>
+    <g transform="translate(795 74)">
+      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
+      <text y="5" fill="#EEEAF5" font-size="12">06</text>
+      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">OPERATE</text>
+    </g>
+    <g transform="translate(935 74)">
+      <circle r="18" fill="#111019" stroke="#8B5CF6" stroke-width="2"/>
+      <text y="5" fill="#EEEAF5" font-size="12">07</text>
+      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">LEARN</text>
+    </g>
+    <g transform="translate(1075 74)">
+      <circle r="18" fill="#171223" stroke="#B57BFF" stroke-width="2"/>
+      <text y="5" fill="#EEEAF5" font-size="15">↺</text>
+      <text y="43" fill="#B7B2BD" font-size="12" letter-spacing="1">REPEAT</text>
+    </g>
+  </g>
 </svg>
