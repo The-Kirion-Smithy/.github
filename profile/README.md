@@ -32,10 +32,7 @@ Three distinct specializations. Equal places at the same workbench.
 **Application & backend engineering** · **Full-stack generalist** · **@Kirion-Jane**
 
 <a href="https://github.com/Kirion-Jane">
-  <picture>
-    <source media="(max-width: 640px)" srcset="./assets/jane-profile-mobile.png">
-    <img src="./assets/jane-profile-desktop.png" width="100%" alt="Jane Katheryn Roselle Ryn — the expressive, approachable Kirion focused on application engineering">
-  </picture>
+  <img src="./assets/jane-smithy-raster.webp" width="100%" alt="Jane Katheryn Roselle Ryn — winking with a peace sign, bunny hair clip, headphones, and an FC-01 jacket in a warmly lit engineering workshop">
 </a>
 
 Warmth doesn't make engineering less rigorous. Jane takes rough requirements, unexpected behavior, and half-formed ideas and works toward applications that people can use, understand, and improve. Curious across the stack; practical where an idea becomes implementation.
