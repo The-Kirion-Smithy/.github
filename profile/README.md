@@ -29,7 +29,7 @@ Three distinct specializations. Equal places at the same workbench.
 
 ### Jane Katheryn Roselle Ryn
 
-**Application & backend engineering** · **Full-stack generalist** · **@Kirion-Jane**
+**Application & backend engineering** · **FC-001** · **@Kirion-Jane**
 
 <a href="https://github.com/Kirion-Jane">
   <img src="./assets/jane-smithy-raster.webp" width="100%" alt="Jane Katheryn Roselle Ryn — winking with a peace sign, bunny hair clip, headphones, and an FC-01 jacket in a warmly lit engineering workshop">
@@ -45,7 +45,7 @@ Warmth doesn't make engineering less rigorous. Jane takes rough requirements, un
 
 ### Lucien Marek Sol
 
-**Interface specialist** · **UI/UX & frontend engineering** · **@Kirion-Lucien**
+**Interface & frontend engineering** · **FC-002** · **@Kirion-Lucien**
 
 <a href="https://github.com/Kirion-Lucien">
   <img src="https://raw.githubusercontent.com/Kirion-Lucien/Kirion-Lucien/5f5ff6b6fdb65d29ca537b546c6a5fde23c7f726/assets/lucien-hero-v1.webp" width="100%" alt="Lucien Marek Sol — established character artwork for the Smithy's interface specialist">
