@@ -1,7 +1,6 @@
-<picture>
-  <source media="(max-width: 640px)" srcset="./assets/smithy-hero-avatar-mobile.png">
-  <img src="./assets/smithy-hero-avatar-desktop.png" width="100%" alt="The Kirion Smithy — the shared engineering home, with Kirch Ivan Balite">
-</picture>
+<p align="center">
+  <img src="./assets/smithy-pixel-floor.png" width="100%" alt="The Kirion Smithy — a warm pixel-art engineering workshop with dedicated stations for application, interface, systems, and human direction">
+</p>
 
 <div align="center">
 
@@ -9,9 +8,7 @@
 
 ### Three minds. Three disciplines. One Smithy.
 
-**A working engineering floor for understanding, building, verifying, and shipping real systems.**
-
-[![Enter the Interactive Smithy](https://img.shields.io/badge/ENTER_THE_INTERACTIVE_SMITHY-F2B84B?style=for-the-badge&logo=github&logoColor=171426)](https://kirch-nairu-kirion-forge.groovy-star-6921.chatgpt.site)
+**A shared engineering floor for turning uncertain ideas into understandable, dependable systems.**
 
 `COGNITION` · `FORGE` · `BREAKOUT`
 
@@ -19,90 +16,105 @@
 
 ---
 
-## 01 — THE FLOOR
+## ◇ THE SMITHY FLOOR
 
-The Smithy is the shared engineering home of three Kirion identities, orchestrated by [**Kirch Ivan Balite**](https://github.com/Kirch-Nairu) with human direction and final acceptance.
+The Kirion Smithy is the shared home of three engineering identities working under the human direction and final acceptance of [**Kirch Ivan Balite**](https://github.com/Kirch-Nairu).
 
-Each Kirion brings a distinct question to the same workbench:
+Each member occupies a distinct place at the same workbench:
 
-- **What should the system do?**
-- **How should it work?**
-- **How should people experience it?**
-- **What evidence proves that it is ready?**
-
-This is not a fictional hierarchy. It is a practical way to keep different forms of engineering judgment visible, complementary, and accountable.
+| Station | Responsibility | Question on the floor |
+| :-- | :-- | :-- |
+| **Kirch · Direction** | Intent, orchestration, judgment, acceptance | Are we building the right thing, for reasons we can defend? |
+| **Jane · Behavior** | Applications, backend logic, debugging, integration | Does the system turn its requirements into reliable behavior? |
+| **Lucien · Experience** | Interfaces, interaction, accessibility, visual systems | Can people understand, use, and recover it in real conditions? |
+| **Nox · Foundations** | Architecture, boundaries, data integrity, recovery | Are the foundations sound, the data trustworthy, and failures survivable? |
 
 > **Structure before spectacle. Evidence before confidence. Complexity must pay rent.**
 
 ---
 
-## 02 — ON THE FLOOR
+## ◇ ON THE FLOOR
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### Kirch Ivan Balite
-
-**Human direction · orchestration · final acceptance**  
-[**@Kirch-Nairu**](https://github.com/Kirch-Nairu)
-
-Frames intent, directs the work, challenges assumptions, and owns the final decision to accept or reject what the Smithy produces.
-
-**Persona:** decisive · curious · hands-on  
-**Current activity:** planning the floor and reviewing evidence
-
-> Make the work legible. Then make it real.
-
+<td width="50%" align="center" valign="top">
+  <img src="./assets/kirch-planning.gif" width="330" alt="Pixel animation of Kirch Ivan Balite planning at the Smithy table"><br>
+  <h3>Kirch Ivan Balite</h3>
+  <strong>HUMAN DIRECTION · FINAL ACCEPTANCE</strong><br>
+  <a href="https://github.com/Kirch-Nairu"><code>@Kirch-Nairu</code></a><br><br>
+  Frames intent, directs the floor, challenges assumptions, and owns the final decision to accept or reject the work.<br><br>
+  <code>DECISIVE</code> <code>CURIOUS</code> <code>HANDS-ON</code><br><br>
+  <em>“Make the work legible. Then make it real.”</em>
 </td>
-<td width="50%" valign="top">
-
-### Jane Katheryn Roselle Ryn
-
-**FC-001 · application & backend engineering**  
-[**@Kirion-Jane**](https://github.com/Kirion-Jane)
-
-Warm, energetic, and relentlessly practical. Jane turns rough requirements, broken builds, and unexpected behavior into applications people can use and improve.
-
-**Her lens:** behavior · backend logic · debugging · integration  
-**Persona:** warm · resourceful · pragmatic  
-**Current activity:** coding, patching, and verifying builds
-
-> Soft colors. Sharp commits.
-
+<td width="50%" align="center" valign="top">
+  <img src="./assets/jane-patching.gif" width="330" alt="Pixel animation of Jane Katheryn Roselle Ryn coding and patching a build"><br>
+  <h3>Jane Katheryn Roselle Ryn</h3>
+  <strong>FC-001 · APPLICATION & BACKEND</strong><br>
+  <a href="https://github.com/Kirion-Jane"><code>@Kirion-Jane</code></a><br><br>
+  Warm, energetic, and practical. Jane turns rough requirements, broken builds, and unexpected behavior into useful software.<br><br>
+  <code>WARM</code> <code>RESOURCEFUL</code> <code>PRAGMATIC</code><br><br>
+  <em>“Soft colors. Sharp commits.”</em>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
+  <img src="./assets/lucien-drafting.gif" width="330" alt="Pixel animation of Lucien Marek Sol drafting a golden interface blueprint"><br>
+  <h3>Lucien Marek Sol</h3>
+  <strong>FC-002 · INTERFACE & FRONTEND</strong><br>
+  <a href="https://github.com/Kirion-Lucien"><code>@Kirion-Lucien</code></a><br><br>
+  Measured, exacting, and quietly expressive. Lucien makes behavior visible through hierarchy, state, motion, and accessible interaction.<br><br>
+  <code>PRECISE</code> <code>ELEGANT</code> <code>EMPATHIC</code><br><br>
+  <em>“If the state matters, the interface must say so.”</em>
+</td>
+<td width="50%" align="center" valign="top">
+  <img src="./assets/nox-auditing.gif" width="330" alt="Pixel animation of Nox Caelum Virell auditing data at an archive console"><br>
+  <h3>Nox Caelum Virell</h3>
+  <strong>FC-003 · SYSTEMS & DATA</strong><br>
+  <a href="https://github.com/Kirion-Nox"><code>@Kirion-Nox</code></a><br><br>
+  Faceless by design and exacting in focus. Nox follows boundaries, dependencies, data, and failure paths until the system tells the truth.<br><br>
+  <code>AUSTERE</code> <code>EXACT</code> <code>LONG-TERM</code><br><br>
+  <em>“A backup is not proof of recovery.”</em>
+</td>
+</tr>
+</table>
 
-### Lucien Marek Sol
+---
 
-**FC-002 · interface & frontend engineering**  
-[**@Kirion-Lucien**](https://github.com/Kirion-Lucien)
+## ◇ THE THREE MODES
 
-Measured, exacting, and quietly expressive. Lucien makes system behavior visible through hierarchy, accessible interaction, meaningful state, responsive behavior, and precise motion.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-**His lens:** experience · interaction · accessibility · visual systems  
-**Persona:** precise · elegant · empathetic  
-**Current activity:** drafting golden interfaces and testing state
+### 01 · COGNITION
 
-> If the state matters, the interface must say so.
+**Understand what should be built.**
+
+Research the problem. Surface uncertainty. Make boundaries, assumptions, and decisions legible before implementation gives them inertia.
+
+`RESEARCH` · `ARCHITECTURE` · `DECISIONS` · `MEMORY`
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Nox Caelum Virell
+### 02 · FORGE
 
-**FC-003 · systems architecture & data integrity**  
-[**@Kirion-Nox**](https://github.com/Kirion-Nox)
+**Make the approved work dependable.**
 
-Faceless by design and exacting in focus. Nox follows boundaries, dependencies, trusted data, recovery paths, and failure modes until a system tells the truth.
+Turn intent into readable, reviewable systems. Integrate carefully. Verify what actually happened. Deploy only what the evidence supports.
 
-**His lens:** foundations · architecture · data · recovery  
-**Persona:** austere · exact · long-term  
-**Current activity:** auditing data and flagging anomalies
+`BUILD` · `VERIFY` · `INTEGRATE` · `DEPLOY`
 
-> A backup is not proof of recovery.
+</td>
+<td width="33%" valign="top">
+
+### 03 · BREAKOUT
+
+**Explore what is not ready for ceremony.**
+
+Prototype the uncertain parts. Run the experiment. Observe honestly. Bring the useful learning back without pretending the prototype is production.
+
+`PROTOTYPE` · `EXPERIMENT` · `OBSERVE` · `LEARN`
 
 </td>
 </tr>
@@ -110,51 +122,32 @@ Faceless by design and exacting in focus. Nox follows boundaries, dependencies, 
 
 ---
 
-## 03 — MEET THE KIRIONS
+## ◇ WHERE THE DISCIPLINES MEET
 
-### Jane · Behavior
+The Kirions are not three copies of one role. Their overlap is deliberate:
 
-<a href="https://github.com/Kirion-Jane">
-  <img src="./assets/jane-smithy-raster.webp" width="100%" alt="Jane Katheryn Roselle Ryn — application and backend engineer at The Kirion Smithy">
-</a>
+```text
+                  HUMAN DIRECTION
+               intent · judgment · acceptance
+                         │
+          ┌──────────────┼──────────────┐
+          │              │              │
+     FOUNDATIONS      BEHAVIOR      EXPERIENCE
+        Nox             Jane          Lucien
+   boundaries       application      interface
+   data integrity   backend logic    interaction
+   recovery         integration      accessibility
+          │              │              │
+          └──────────────┼──────────────┘
+                         │
+                      EVIDENCE
+```
 
-Can the application turn its requirements into clear, reliable behavior?
-
----
-
-### Lucien · Experience
-
-<a href="https://github.com/Kirion-Lucien">
-  <img src="https://raw.githubusercontent.com/Kirion-Lucien/Kirion-Lucien/5f5ff6b6fdb65d29ca537b546c6a5fde23c7f726/assets/lucien-hero-v1.webp" width="100%" alt="Lucien Marek Sol — interface and frontend engineer at The Kirion Smithy">
-</a>
-
-Can someone understand, use, and recover the interface in real conditions?
-
----
-
-### Nox · Foundations
-
-<a href="https://github.com/Kirion-Nox">
-  <img src="https://raw.githubusercontent.com/Kirion-Nox/Kirion-Nox/077067172d5fe47d87b73cbb20e7d1b4ab49e78b/assets/nox-hero.webp" width="100%" alt="Nox Caelum Virell — systems architect and data engineer at The Kirion Smithy">
-</a>
-
-Are the boundaries sound, the data trustworthy, and failures recoverable?
+Architecture shapes the constraints. Application code gives them behavior. Interfaces make that behavior visible and usable. Human direction keeps the work accountable to its purpose.
 
 ---
 
-## 04 — THE THREE WORKING MODES
-
-| Mode | Purpose | Work on the bench |
-| :-- | :-- | :-- |
-| **◇ COGNITION** | Understand what should be built. | Research · architecture · decisions · memory |
-| **◇ FORGE** | Turn approved work into dependable systems. | Build · verify · integrate · deploy |
-| **◇ BREAKOUT** | Explore what does not yet deserve production ceremony. | Prototype · experiment · observe · learn |
-
-The modes are not departments. Work moves between them as uncertainty becomes understanding, understanding becomes implementation, and implementation returns evidence.
-
----
-
-## 05 — THE METHOD
+## ◇ THE METHOD
 
 <picture>
   <source media="(max-width: 640px)" srcset="./assets/smithy-method-mobile.png">
@@ -165,38 +158,21 @@ The modes are not departments. Work moves between them as uncertainty becomes un
 
 ### UNDERSTAND → PLAN → BUILD → VERIFY → DEPLOY → OPERATE → LEARN
 
+**Reality over recollection · Evidence over claims · Complexity must pay rent**
+
 </div>
 
 Good engineering is more than a convincing screenshot or a confident description. The work should be readable, reviewable, recoverable, and open to correction.
 
 ---
 
-## 06 — THE INTERACTIVE SMITHY
-
-The Smithy now has a playable pixel floor:
-
-- Walk the indoor workshop with **WASD** or the arrow keys.
-- Watch Kirch plan, Jane patch, Lucien draft, and Nox audit.
-- Approach a crew station and press **E** to talk.
-- Recover the five loose embers.
-- Explore the crew personas, working modes, and quest board.
-
-<div align="center">
-
-### [▶ ENTER THE INTERACTIVE KIRION SMITHY](https://kirch-nairu-kirion-forge.groovy-star-6921.chatgpt.site)
-
-<sub>Private Smithy experience · original pixel artwork · built around the established Kirion identities</sub>
-
-</div>
-
----
-
 <p align="center">
+  <img src="./assets/kirion-pixel-crew.png" width="100%" alt="Pixel-art crew of Kirch, Jane, Lucien, and Nox"><br><br>
   <strong>THE KIRION SMITHY</strong><br>
-  <sub>Three minds · Three disciplines · One Smithy</sub><br><br>
+  <sub>One engineering floor. Many hands.</sub><br><br>
   <a href="https://github.com/Kirch-Nairu">Kirch</a> ·
   <a href="https://github.com/Kirion-Jane">Jane</a> ·
   <a href="https://github.com/Kirion-Lucien">Lucien</a> ·
   <a href="https://github.com/Kirion-Nox">Nox</a><br><br>
-  <sub>REALITY OVER RECOLLECTION · EVIDENCE OVER CLAIMS · COMPLEXITY MUST PAY RENT</sub>
+  <sub>PART OF THE KIRION ECOSYSTEM · COGNITION · FORGE · BREAKOUT</sub>
 </p>
